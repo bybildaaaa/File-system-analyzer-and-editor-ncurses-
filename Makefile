@@ -28,3 +28,5 @@ clean:
 
 test: debug
 	$(VALGRIND) --leak-check=full --show-leak-kinds=all --track-origins=yes $(BUILD_DIR)/$(TARGET)_debug -lfd
+
+	
